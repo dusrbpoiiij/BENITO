@@ -1,0 +1,118 @@
+.header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__right {
+  display: flex;
+}
+
+.header__user {
+  width : 1280px;
+  margin:  auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__userMenuList {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__userMenu {
+  list-style-type: none;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.header__optionLineOne {
+  font-family: 'Open Sans','Nanum Gothic',sans-serif;
+  font-size:12px;
+  color:#777;
+}
+
+.header__optionLineTwo {
+  font-family: 'Open Sans','Nanum Gothic',sans-serif;
+  font-size:11px;
+  color:#777;
+}
+
+.header__search {
+  display: flex;
+}
+
+.header__searchInput {
+  width: 100px;
+  border: none;
+  border-bottom: .5px solid #777;
+  padding: 5px;
+}
+
+.header__searchIcon {
+  color: #777;
+}
+
+
+.header__logo {
+  width: 1280px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header__logoImage {
+  height: 20px;
+}
+
+
+.header__item {
+  width : 1280px;
+  margin:  auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__itemMenuList {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 0;
+}
+
+.header__itemMenu {
+  list-style-type: none;
+  margin-right: 17px;
+}
+
+.header__optionLineThree {
+  font-family: 'Open Sans','Nanum Gothic',sans-serif;
+  font-size:13px;
+  color:#000;
+  line-height: 50px;
+  height: 50px;
+}
+
+.header__menuIconContainer {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-right: 25px;
+}
+.header__menuIcon {
+  color: #777;
+  cursor: pointer;
+}
+
+.header__optionLineFour {
+  color: red;
+}
